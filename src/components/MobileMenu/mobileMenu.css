@@ -1,0 +1,25 @@
+.mobile {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-color: WHITE;
+    justify-content: center;
+    z-index: 15;
+
+}
+
+.mobile-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 24px;
+    gap: 36px;
+}
+
+.navigation-list-mobile {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 12px;
+    font-weight: bold;
+}

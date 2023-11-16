@@ -1,0 +1,103 @@
+.modal-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    z-index: 15;
+    width: 300px;
+    left: 38%;
+    top: 7%;
+}
+
+.close-icon {
+    fill: white;
+}
+
+.close-icon:hover {
+    cursor: pointer;
+    stroke: hsl(26, 100%, 55%);
+    fill: hsl(26, 100%, 55%);
+}
+
+.thumb-modal {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+}
+
+
+.thumbs-modal {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.active-modal {
+    border: 2px solid hsl(26, 100%, 55%);
+    background-color: white;
+}
+
+.active-thumb {
+    opacity: 0.4;
+}
+
+.thumb-modal:hover {
+    background-color: white;
+}
+
+.thumbs-modal:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.main-product-modal {
+    width: 100%;
+    height: 364px;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.prev {
+    left: -10px;
+    padding-right: 5px;
+}
+
+.next {
+    right: -10px;
+    padding-left: 5px;
+}
+
+.arrow-icon {
+    stroke: #000;
+}
+
+.arrow-next {
+    rotate: 180deg;
+}
+
+.arrow-icon:hover {
+    cursor: pointer;
+    stroke: hsl(26, 100%, 55%);
+    fill: hsl(26, 100%, 55%);
+}
+
+.close-modal {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 100%;
+}

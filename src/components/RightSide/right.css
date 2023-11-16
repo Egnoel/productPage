@@ -1,0 +1,138 @@
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+.sneaker {
+    color: hsl(26, 100%, 55%);
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(0, 0%, 63%);
+}
+
+.price-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.price-descount {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.discount {
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    padding: 2px;
+}
+
+
+.original-price {
+    font-size: 12px;
+    font-weight: bold;
+    color: hsl(0, 0%, 63%);
+    text-decoration: line-through;
+}
+
+.buy {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 96px;
+    background-color: hsl(223, 64%, 98%);
+    height: 32px;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.minus,
+.plus {
+    cursor: pointer;
+    color: hsl(26, 100%, 55%);
+    border: none;
+    background-color: hsl(223, 64%, 98%);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.number {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.add-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+    width: 128px;
+    gap: 10px;
+}
+
+.add-cart:hover {
+    opacity: 0.5;
+}
+
+.cart-ico {
+    width: 12px;
+    height: 12px;
+    fill: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .right {
+        width: 90%;
+    }
+
+    .price-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .buy {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .quantity {
+        width: 100%;
+    }
+
+    .add-cart {
+        width: 100%;
+    }
+}

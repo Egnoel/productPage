@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.left-side {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right-side {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+        width: 100%;
+        align-items: normal;
+        justify-content: normal;
+        margin-top: 0;
+    }
+
+    .left-side {
+        width: 100%;
+        align-items: normal;
+        justify-content: normal;
+    }
+
+    .right-side {
+        width: 100%;
+        align-items: normal;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
