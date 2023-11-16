@@ -20,7 +20,7 @@ const LeftSide = () => {
           <ArrowIcon className="arrow-icon" width="8" heigth="8" />
         </div>
         <img src={product1} alt="product1" className="product" />
-        <div className="arrow next-left">
+        <div className="arrow-left next-left">
           <ArrowIcon className="arrow-icon arrow-next" width="8" heigth="8" />
         </div>
       </div>
